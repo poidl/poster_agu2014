@@ -1,0 +1,14 @@
+ \begin{table} 
+ \centering 
+ \begin{tabular}{lcccc} 
+ \toprule 
+ \multicolumn{5}{c}{MATLAB runtime (sec) for dataset \lstinline{nemo_1deg}}  \\
+ \cmidrule{1-5} 
+ & {Root finding   }& {  LSQR   } &  {NIT(LSQR)} & {  Total   }\\ 
+ \cmidrule{2-5} 
+ $\gamma^n$ & $\approx$751.99 & n/a & n/a & $\approx$751.99 \\
+ $\gamma^i$ & 3007.96 & 2114.47 & 10000.00 & 5122.43\\
+ $\gamma^{EWmod}$ &  n/a  & 3161.58 & 11099.00 & 3161.58 \\
+ $\sigma_0$ &  n/a  &  n/a &  n/a  & 0.06 \\
+ \end{tabular} 
+ \end{table} 

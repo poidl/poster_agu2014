@@ -1,0 +1,4 @@
+glabel_matlab-LD: /usr/lang/SC1.0.1/cg89/libm.a
+glabel_matlab-COMP: /usr/lang/SC1.0.1/crt0.o /usr/lang/SC1.0.1/crt0.o /usr/lang/SC1.0.1/crt0.o /usr/lang/SC1.0.1/cg89/_nonstd_crt1.o /usr/lang/SC1.0.1/cg89/_nonstd_crt1.o /usr/lang/SC1.0.1/cg89/_nonstd_crt1.o
+nsfces_matlab-LD: /usr/lang/SC1.0.1/cg89/libm.a
+nsfces_matlab-COMP: /usr/lang/SC1.0.1/crt0.o /usr/lang/SC1.0.1/crt0.o /usr/lang/SC1.0.1/crt0.o /usr/lang/SC1.0.1/cg89/_nonstd_crt1.o /usr/lang/SC1.0.1/cg89/_nonstd_crt1.o /usr/lang/SC1.0.1/cg89/_nonstd_crt1.o

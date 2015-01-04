@@ -1,0 +1,15 @@
+ \begin{table} 
+ \centering 
+ \begin{tabular}{lccc} 
+ \toprule 
+ \multicolumn{4}{c}{MATLAB runtime (sec) for dataset \lstinline{woa13_4deg}}  \\
+ \cmidrule{1-4} 
+ & {Root finding   }& {  LSQR   } &{  Total   }\\ 
+ \cmidrule{2-4} 
+ $\gamma^n$ & $\approx$32.47 & n/a & $\approx$32.47 \\
+ $\gamma^i$ & 129.89 & 192.25 & 322.14\\
+ $\gamma^{EW}$ &  n/a  & 43.14 & 43.14 \\
+ $\gamma^{EWmod}$ &  n/a  & 231.65 & 231.65 \\
+ $\sigma_0$ &  n/a  &  n/a  & 0.01 \\
+ \end{tabular} 
+ \end{table} 

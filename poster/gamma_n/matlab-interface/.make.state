@@ -1,0 +1,13 @@
+.MAKE_VERSION:	VERSION-1.0
+.BUILT_LAST_MAKE_RUN:
+nsfces_matlab:	/usr/lang/SC1.0.1/cg89/libm.a /usr/lang/SC1.0.1/crt0.o /usr/lang/SC1.0.1/cg89/_nonstd_crt1.o 
+	f77 -fast -O4 -cg89  -sun4 -o nsfces_matlab nsfces_matlab.o ../gamma.a -lnetcdf
+.BUILT_LAST_MAKE_RUN:
+glabel_matlab:	/usr/lang/SC1.0.1/cg89/libm.a /usr/lang/SC1.0.1/crt0.o /usr/lang/SC1.0.1/cg89/_nonstd_crt1.o 
+	f77 -fast -O4 -cg89  -sun4 -o glabel_matlab glabel_matlab.o ../gamma.a -lnetcdf
+.BUILT_LAST_MAKE_RUN:
+glabel_matlab.o:
+	f77 -fast -O4 -cg89 -sun4 -c  glabel_matlab.f
+.BUILT_LAST_MAKE_RUN:
+nsfces_matlab.o:
+	f77 -fast -O4 -cg89 -sun4 -c  nsfces_matlab.f

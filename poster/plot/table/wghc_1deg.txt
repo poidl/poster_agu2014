@@ -1,0 +1,14 @@
+ \begin{table} 
+ \centering 
+ \begin{tabular}{lcccc} 
+ \toprule 
+ \multicolumn{5}{c}{MATLAB runtime (sec) for dataset \lstinline{wghc_1deg}}  \\
+ \cmidrule{1-5} 
+ & {Root finding   }& {  LSQR   } &  {NIT(LSQR)} & {  Total   }\\ 
+ \cmidrule{2-5} 
+ $\gamma^n$ & $\approx$17.18 & n/a & n/a & $\approx$17.18 \\
+ $\gamma^i$ & 68.71 & 1601.01 & 10000.00 & 1669.72\\
+ $\gamma^{EWmod}$ &  n/a  & 2102.77 & 10541.00 & 2102.77 \\
+ $\sigma_0$ &  n/a  &  n/a &  n/a  & 0.04 \\
+ \end{tabular} 
+ \end{table} 

@@ -1,0 +1,114 @@
+.MAKE_VERSION:	VERSION-1.0
+.BUILT_LAST_MAKE_RUN:
+gamma.a(stp-interp.o):
+	f77 -DPWD="'`pwd`'" -fast -O4 -cg89 -sun4 -c -o stp-interp.o stp-interp.f
+	ar rv gamma.a stp-interp.o
+	rm -f stp-interp.o
+.BUILT_LAST_MAKE_RUN:
+gamma.a(depth-ns.o):
+	f77 -DPWD="'`pwd`'" -fast -O4 -cg89 -sun4 -c -o depth-ns.o depth-ns.f
+	ar rv gamma.a depth-ns.o
+	rm -f depth-ns.o
+.BUILT_LAST_MAKE_RUN:
+gamma.a(eos8d.o):
+	f77 -DPWD="'`pwd`'" -fast -O4 -cg89 -sun4 -c -o eos8d.o eos8d.f
+	ar rv gamma.a eos8d.o
+	rm -f eos8d.o
+.BUILT_LAST_MAKE_RUN:
+gamma.a(atg.o):
+	f77 -DPWD="'`pwd`'" -fast -O4 -cg89 -sun4 -c -o atg.o atg.f
+	ar rv gamma.a atg.o
+	rm -f atg.o
+.BUILT_LAST_MAKE_RUN:
+gamma.a(theta.o):
+	f77 -DPWD="'`pwd`'" -fast -O4 -cg89 -sun4 -c -o theta.o theta.f
+	ar rv gamma.a theta.o
+	rm -f theta.o
+.BUILT_LAST_MAKE_RUN:
+gamma.a(e-solve.o):
+	f77 -DPWD="'`pwd`'" -fast -O4 -cg89 -sun4 -c -o e-solve.o e-solve.f
+	ar rv gamma.a e-solve.o
+	rm -f e-solve.o
+.BUILT_LAST_MAKE_RUN:
+gamma.a(get-lunit.o):
+	f77 -DPWD="'`pwd`'" -fast -O4 -cg89 -sun4 -c -o get-lunit.o get-lunit.f
+	ar rv gamma.a get-lunit.o
+	rm -f get-lunit.o
+.BUILT_LAST_MAKE_RUN:
+gamma.a(eosall.o):
+	f77 -DPWD="'`pwd`'" -fast -O4 -cg89 -sun4 -c -o eosall.o eosall.f
+	ar rv gamma.a eosall.o
+	rm -f eosall.o
+.BUILT_LAST_MAKE_RUN:
+gamma.a(gamma-n.o):
+	f77 -DPWD="'`pwd`'" -fast -O4 -cg89 -sun4 -c -o gamma-n.o gamma-n.f
+	ar rv gamma.a gamma-n.o
+	rm -f gamma-n.o
+.BUILT_LAST_MAKE_RUN:
+gamma.a(scv-solve.o):
+	f77 -DPWD="'`pwd`'" -fast -O4 -cg89 -sun4 -c -o scv-solve.o scv-solve.f
+	ar rv gamma.a scv-solve.o
+	rm -f scv-solve.o
+.BUILT_LAST_MAKE_RUN:
+gamma.a(goor-solve.o):
+	f77 -DPWD="'`pwd`'" -fast -O4 -cg89 -sun4 -c -o goor-solve.o goor-solve.f
+	ar rv gamma.a goor-solve.o
+	rm -f goor-solve.o
+.BUILT_LAST_MAKE_RUN:
+gamma.a(read-nc.o):
+	f77 -DPWD="'`pwd`'" -fast -O4 -cg89  -sun4 -c -o read-nc.o read-nc.F
+	ar rv gamma.a read-nc.o
+	rm -f read-nc.o
+.BUILT_LAST_MAKE_RUN:
+gamma.a(svan.o):
+	f77 -DPWD="'`pwd`'" -fast -O4 -cg89 -sun4 -c -o svan.o svan.f
+	ar rv gamma.a svan.o
+	rm -f svan.o
+.BUILT_LAST_MAKE_RUN:
+gamma.a(gamma-errors.o):
+	f77 -DPWD="'`pwd`'" -fast -O4 -cg89 -sun4 -c -o gamma-errors.o gamma-errors.f
+	ar rv gamma.a gamma-errors.o
+	rm -f gamma-errors.o
+.BUILT_LAST_MAKE_RUN:
+gamma.a:
+	ranlib gamma.a
+.BUILT_LAST_MAKE_RUN:
+gamma.a(index.o):
+	f77 -DPWD="'`pwd`'" -fast -O4 -cg89 -sun4 -c -o index.o index.f
+	ar rv gamma.a index.o
+	rm -f index.o
+.BUILT_LAST_MAKE_RUN:
+gamma.a(neutral-surfaces.o):
+	f77 -DPWD="'`pwd`'" -fast -O4 -cg89 -sun4 -c -o neutral-surfaces.o neutral-surfaces.f
+	ar rv gamma.a neutral-surfaces.o
+	rm -f neutral-surfaces.o
+.BUILT_LAST_MAKE_RUN:
+gamma.a(depth-scv.o):
+	f77 -DPWD="'`pwd`'" -fast -O4 -cg89 -sun4 -c -o depth-scv.o depth-scv.f
+	ar rv gamma.a depth-scv.o
+	rm -f depth-scv.o
+.BUILT_LAST_MAKE_RUN:
+gamma.a(sig-vals.o):
+	f77 -DPWD="'`pwd`'" -fast -O4 -cg89 -sun4 -c -o sig-vals.o sig-vals.f
+	ar rv gamma.a sig-vals.o
+	rm -f sig-vals.o
+.BUILT_LAST_MAKE_RUN:
+gamma.a(derthe.o):
+	f77 -DPWD="'`pwd`'" -fast -O4 -cg89 -sun4 -c -o derthe.o derthe.f
+	ar rv gamma.a derthe.o
+	rm -f derthe.o
+.BUILT_LAST_MAKE_RUN:
+gamma.a(goor.o):
+	f77 -DPWD="'`pwd`'" -fast -O4 -cg89 -sun4 -c -o goor.o goor.f
+	ar rv gamma.a goor.o
+	rm -f goor.o
+.BUILT_LAST_MAKE_RUN:
+gamma.a(ocean-test.o):
+	f77 -DPWD="'`pwd`'" -fast -O4 -cg89 -sun4 -c -o ocean-test.o ocean-test.f
+	ar rv gamma.a ocean-test.o
+	rm -f ocean-test.o
+.BUILT_LAST_MAKE_RUN:
+gamma.a(gamma-qdr.o):
+	f77 -DPWD="'`pwd`'" -fast -O4 -cg89 -sun4 -c -o gamma-qdr.o gamma-qdr.f
+	ar rv gamma.a gamma-qdr.o
+	rm -f gamma-qdr.o

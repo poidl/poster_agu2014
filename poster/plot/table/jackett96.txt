@@ -1,0 +1,15 @@
+ \begin{table} 
+ \centering 
+ \begin{tabular}{lccc} 
+ \toprule 
+ \multicolumn{4}{c}{MATLAB runtime (sec) for dataset \lstinline{jackett96}}  \\
+ \cmidrule{1-4} 
+ & {Root finding   }& {  LSQR   } &{  Total   }\\ 
+ \cmidrule{2-4} 
+ $\gamma^n$ & $\approx$35.04 & n/a & $\approx$35.04 \\
+ $\gamma^i$ & 140.17 & 46.09 & 186.26\\
+ $\gamma^{EW}$ &  n/a  & 8.29 & 8.29 \\
+ $\gamma^{EWmod}$ &  n/a  & 86.77 & 86.77 \\
+ $\sigma_0$ &  n/a  &  n/a  & 0.01 \\
+ \end{tabular} 
+ \end{table} 

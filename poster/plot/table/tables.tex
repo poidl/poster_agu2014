@@ -1,0 +1,89 @@
+
+\documentclass[12pt,a4paper]{article}
+%\usepackage[german]{babel}
+%\usepackage{nopageno} % no page numbers
+%\usepackage[margin=0.7in]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{subfigure}
+\usepackage{color}
+\usepackage{listings}
+\usepackage{natbib}
+\usepackage{booktabs}
+\usepackage{listings}
+\usepackage{morefloats}
+\addtolength{\oddsidemargin}{-2cm}
+\addtolength{\evensidemargin}{-2cm}
+\addtolength{\textwidth}{4cm}
+
+\addtolength{\topmargin}{-2cm}
+\addtolength{\textheight}{2cm}
+\newcommand\norm[1]{\left\lVert#1\right\rVert}
+\renewcommand{\familydefault}{\sfdefault}
+
+%\newcommand{\ap}{/home/nfs/z3439823/mymatlab/omega/ansu_utils/postprocess/figures/}
+
+\author{}
+\date{}
+\begin{document}
+\setlength{\parindent}{0cm}
+
+% header end
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+ 
+ \begin{table} 
+ \centering 
+ \begin{tabular}{lcccc} 
+ \toprule 
+ \multicolumn{5}{c}{MATLAB runtime (sec) for dataset \lstinline{wghc_1deg}}  \\
+ \cmidrule{1-5} 
+ & {Root finding   }& {  LSQR   } &  {NIT(LSQR)} & {  Total   }\\ 
+ \cmidrule{2-5} 
+ $\gamma^n$ & $\approx$17.18 & n/a & n/a & $\approx$17.18 \\
+ $\gamma^i$ & 68.71 & 1601.01 & 10000.00 & 1669.72\\
+ $\gamma^{EWmod}$ &  n/a  & 2102.77 & 10541.00 & 2102.77 \\
+ $\sigma_0$ &  n/a  &  n/a &  n/a  & 0.04 \\
+ \end{tabular} 
+ \end{table} 
+ 
+ 
+ \begin{table} 
+ \centering 
+ \begin{tabular}{lcccc} 
+ \toprule 
+ \multicolumn{5}{c}{MATLAB runtime (sec) for dataset \lstinline{woa13_1deg}}  \\
+ \cmidrule{1-5} 
+ & {Root finding   }& {  LSQR   } &  {NIT(LSQR)} & {  Total   }\\ 
+ \cmidrule{2-5} 
+ $\gamma^n$ & $\approx$552.12 & n/a & n/a & $\approx$552.12 \\
+ $\gamma^i$ & 2208.49 & 3701.34 & 10000.00 & 5909.83\\
+ $\gamma^{EWmod}$ &  n/a  & 5317.01 & 11141.00 & 5317.01 \\
+ $\sigma_0$ &  n/a  &  n/a &  n/a  & 0.10 \\
+ \end{tabular} 
+ \end{table} 
+ 
+ 
+ \begin{table} 
+ \centering 
+ \begin{tabular}{lcccc} 
+ \toprule 
+ \multicolumn{5}{c}{MATLAB runtime (sec) for dataset \lstinline{nemo_1deg}}  \\
+ \cmidrule{1-5} 
+ & {Root finding   }& {  LSQR   } &  {NIT(LSQR)} & {  Total   }\\ 
+ \cmidrule{2-5} 
+ $\gamma^n$ & $\approx$751.99 & n/a & n/a & $\approx$751.99 \\
+ $\gamma^i$ & 3007.96 & 2114.47 & 10000.00 & 5122.43\\
+ $\gamma^{EWmod}$ &  n/a  & 3161.58 & 11099.00 & 3161.58 \\
+ $\sigma_0$ &  n/a  &  n/a &  n/a  & 0.06 \\
+ \end{tabular} 
+ \end{table} 
+ 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% footer start
+
+\end{document}
